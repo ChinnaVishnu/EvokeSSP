@@ -1,0 +1,99 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="EvokeApi  Suite" >
+
+   <!-- <listeners> -->
+ <!--  <listener class-name="com.slokam.moodle.commons.listiners.ExtentReportListiner" /> -->
+ <!--  <listener class-name="com.jocata.customListner.Listener"></listener> 
+ </listeners> 
+  -->
+ 
+  <!-- <listeners>
+  <listener class-name="Listener_Demo.ListenerTest" />
+ </listeners> --> 
+   <test name="RunTests">
+   
+   
+   <classes>
+   
+   <class name="com.jocata.ssp.testcases.Tc_05FilteringAPIs"></class>
+   
+   </classes>
+   
+   
+   <!-- com.ecoke.voteridsources.allcases -->  
+   
+    <!--packages>
+    
+    <package name="com.slokam.evoke.testsuite.voterid.cases"></package>
+    
+    </packages-->
+    
+   <!--  <packages>
+    
+    <package name="com.drivinglinces.indival"></package>
+    
+    </packages>
+     -->
+    
+   <!--  <classes>
+    
+    <class name="com.jocata.ssp.testcases.Tc_05FilteringAPIs">
+    
+    </classes>  -->
+    
+    <!-- <methods>
+    
+    <include name="ElectricityKarnataka"></include>
+    
+    </methods> -->
+    
+   <!--  </class>
+    
+    <class name="com.drivinglinces.indival.FormPaninfo"></class>
+     -->
+    
+    
+    
+    
+    
+    <!-- com.ecoke.electricityidsources.allcases -->  
+    
+  <!--   <packages>
+    
+      <package name="com.electricity.verification"></package>
+      
+      
+      <package name="com.slokam.shopact.verification"></package>
+      <package name="com.slokam.evoke.testsuite.voterid.cases"></package>
+      <package name="com.slokam.evoke.testsuite.cases.propertyTaxs"></package>
+      <package name="com.slokam.evoke.testsuite.cbil"></package>
+      
+    </packages>
+     -->
+    
+    
+   <!-- com.ecoke.shopactsourcesidsources.allcases -->  
+   <!--packages>
+   
+   <package name="com.slokam.shopact.verification"></package>
+   
+   </packages--> 
+    
+    <!-- com.ecoke.somecases.allcases -->  
+    
+    <!--packages>
+     <package name="com.slokam.evoke.testsuite.cases"></package>
+     
+     </packages-->
+    
+     <!-- com.ecoke.formand cbil.allcases -->  
+    <!--packages>
+     <package name="com.slokam.evoke.testsuite.cbil"></package>
+     
+     </packages--> 
+    
+    </test>    
+    
+
+</suite>
